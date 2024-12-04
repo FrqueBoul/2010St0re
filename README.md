@@ -3,69 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las Ropas Recicladas</title>
+    <title>Hilos Retro</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo">
+            <div class="top-bar">
+                <div class="newsletter">
+                    <input type="email" placeholder="Recibe nuestro boletín" />
+                    <button>Suscríbete</button>
+                </div>
+                <div class="account-links">
+                    <a href="#">Mi Cuenta</a>
+                    <a href="#">Ayuda & Contacto</a>
+                </div>
+            </div>
+            <div class="logo-banner">
                 <h1>Hilos Retro</h1>
                 <p>Estilo atemporal para todos</p>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#shop">Tienda</a></li>
-                    <li><a href="#about">Acerca de</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
+            <div class="promo-banner">
+                <p><strong>¡Oferta Especial!</strong> Obtén un 20% de descuento en toda la tienda.</p>
+            </div>
         </header>
 
-        <div class="banner">
-            <img src="https://via.placeholder.com/960x300" alt="Banner">
-        </div>
+        <div class="main-content">
+            <!-- Sidebar Left -->
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">Lo Mejor Vendido</a></li>
+                    <li><a href="#">Ofertas Especiales</a></li>
+                    <li><a href="#">Por Diseñador</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Ropa</a></li>
+                </ul>
+            </div>
 
-        <main>
-            <h2>Productos Destacados</h2>
-            <table class="product-table">
-                <tr>
-                    <td>
+            <!-- Main Products Section -->
+            <div class="products">
+                <h2>Productos Destacados</h2>
+                <div class="product-list">
+                    <div class="product-item">
                         <img src="https://via.placeholder.com/150" alt="Producto 1">
                         <p><strong>Camiseta Clásica</strong></p>
                         <p>$25.00</p>
-                    </td>
-                    <td>
+                    </div>
+                    <div class="product-item">
                         <img src="https://via.placeholder.com/150" alt="Producto 2">
                         <p><strong>Chaqueta Vintage</strong></p>
                         <p>$45.00</p>
-                    </td>
-                    <td>
+                    </div>
+                    <div class="product-item">
                         <img src="https://via.placeholder.com/150" alt="Producto 3">
                         <p><strong>Jeans de Mezclilla</strong></p>
                         <p>$40.00</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://via.placeholder.com/150" alt="Producto 4">
-                        <p><strong>Botas de Cuero</strong></p>
-                        <p>$70.00</p>
-                    </td>
-                    <td>
-                        <img src="https://via.placeholder.com/150" alt="Producto 5">
-                        <p><strong>Sudadera Gráfica</strong></p>
-                        <p>$35.00</p>
-                    </td>
-                    <td>
-                        <img src="https://via.placeholder.com/150" alt="Producto 6">
-                        <p><strong>Gafas de Sol Retro</strong></p>
-                        <p>$20.00</p>
-                    </td>
-                </tr>
-            </table>
-        </main>
+                    </div>
+                    <!-- More products can be added similarly -->
+                </div>
+            </div>
+
+            <!-- Right Sidebar with Ads -->
+            <div class="right-sidebar">
+                <div class="ad-banner">
+                    <p>¡Mira nuestras últimas ofertas! <a href="#">Más información</a></p>
+                </div>
+                <div class="ad-banner">
+                    <p><strong>Compra ahora</strong> y ahorra un 20% en tu próxima compra.</p>
+                </div>
+            </div>
+        </div>
 
         <footer>
             <p>&copy; 2010 Hilos Retro. Todos los derechos reservados.</p>
